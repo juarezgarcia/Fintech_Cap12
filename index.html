@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BootStrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+
+    <!-- css pessoal -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Invest Simples</title>
+</head>
+
+<body>
+
+    <!-- Barra menu superior -->
+
+    <header>
+        <nav class="menu">
+            <a href="">Sobre</a>
+            <a href="">Valores</a>
+            <a href="">Contato</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Lado esquerdo login -->
+    <main>
+        <section class="tela-inicial">
+
+            <div class="tela-login">
+                <!-- <p>lado esquerdo</p> -->
+                <img src="./assets/images/Logo 2.jpg" alt="Logo Invest Simples">
+                <form action="" class="form-login" method="post">
+
+                    <div>
+                        <label for="usuario" class="login">Usuário</label>
+                        <input type="text" class="login-input" id="usuario" name="usuario">
+                    </div>
+
+                    <div>
+                        <label for="senha-login" class="login">Senha</label>
+                        <input type="password" class="login-input" id="senha-login" name="senha-login">
+                    </div>
+
+                    <div>
+                        <button type="submit" class="login">Entrar</button>
+                    </div>
+
+                    <div class="brand-icon">
+                        <a href=""><i class="fa-brands fa-google"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="linha-vertical"></div>
+
+            <!-- Lado direito cadastro -->
+
+            <div class="tela-cadastro">
+                <h1>Não tem cadastro?</h1>
+                <form action="" class="form-login" method="post">
+
+                    <div>
+                        <label for="nome" class="login">Nome</label>
+                        <input type="text" class="login-input" id="nome" name="nome" placeholder="João">
+                    </div>
+
+                    <div>
+                        <label for="sobrenome" class="login">Sobrenome</label>
+                        <input type="text" class="login-input" id="sobrenome" name="sobrenome" placeholder="da Silva">
+                    </div>
+
+                    <div>
+                        <label for="cpf" class="login">CPF</label>
+                        <input type="text" inputmode="numeric" class="login-input" id="cpf" name="cpf"
+                            placeholder="999.999.999-99">
+                    </div>
+
+                    <div>
+                        <label for="telefone" class="login">Telefone</label>
+                        <input type="fone" class="login-input" id="telefone" name="telefone"
+                            placeholder="(11) 99999-9999">
+                    </div>
+
+                    <div>
+                        <label for="nascimento" class="login">Data de Nascimento</label>
+                        <input type="date" class="login-input" id="nascimento" name="nascimento"
+                            placeholder="mm/dd/yyyy">
+                    </div>
+
+                    <div>
+                        <label for="email" class="login">E-mail</label>
+                        <input type="email" class="login-input" id="email" name="email" placeholder="user123@email.com">
+                    </div>
+
+                    <div>
+                        <label for="senha-cadastro" class="login">Senha</label>
+                        <input type="password" class="login-input" id="senha-cadastro" name="senha-cadastro"
+                            minlength="6" maxlength="12" placeholder="wer$@3!@">
+                    </div>
+
+                    <div>
+                        <button type="submit" class="login">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+
+    <!-- barra fim da pagina -->
+
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
